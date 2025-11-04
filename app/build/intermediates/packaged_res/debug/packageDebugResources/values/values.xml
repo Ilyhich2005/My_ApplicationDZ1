@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="grey">#BAB0B0</color>
+    <color name="myblue">#2F60D7</color>
+    <color name="myred">#E71B44</color>
+    <color name="white">#FFFFFFFF</color>
+    <integer name="span_count">3</integer>
+    <string name="add_button">Add new item</string>
+    <string name="app_name" translatable="false">My ApplicationDZ1</string>
+    <style name="Base.Theme.MyApplicationDZ1" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApplicationDZ1" parent="Base.Theme.MyApplicationDZ1"/>
+</resources>

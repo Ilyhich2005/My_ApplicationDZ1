@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color grey
+color myblue
+color myred
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id add_button
+id itemConstraint
+id main
+id myRecView
+id numb_text
+integer span_count
+layout activity_main
+layout my_item_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string add_button
+string app_name
+style Base.Theme.MyApplicationDZ1
+style Theme.MyApplicationDZ1
+xml backup_rules
+xml data_extraction_rules

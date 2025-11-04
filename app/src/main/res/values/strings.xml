@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">My ApplicationDZ1</string>
+    <string name="add_button">Add new item</string>
+</resources>
