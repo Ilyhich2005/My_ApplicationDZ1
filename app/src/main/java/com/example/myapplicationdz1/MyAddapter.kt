@@ -1,5 +1,6 @@
 package com.example.myapplicationdz1
 
+import android.util.Log
 import com.example.myapplicationdz1.R
 import android.view.LayoutInflater
 import android.view.View

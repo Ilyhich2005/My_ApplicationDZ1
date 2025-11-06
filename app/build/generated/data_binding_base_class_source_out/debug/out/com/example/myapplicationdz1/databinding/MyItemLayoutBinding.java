@@ -7,26 +7,26 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.myapplicationdz1.R;
+import com.example.myapplicationdz1.SquareConstraintLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class MyItemLayoutBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final SquareConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout itemConstraint;
+  public final SquareConstraintLayout itemConstraint;
 
   @NonNull
   public final TextView numbText;
 
-  private MyItemLayoutBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout itemConstraint, @NonNull TextView numbText) {
+  private MyItemLayoutBinding(@NonNull SquareConstraintLayout rootView,
+      @NonNull SquareConstraintLayout itemConstraint, @NonNull TextView numbText) {
     this.rootView = rootView;
     this.itemConstraint = itemConstraint;
     this.numbText = numbText;
@@ -34,7 +34,7 @@ public final class MyItemLayoutBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public SquareConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -59,7 +59,7 @@ public final class MyItemLayoutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      ConstraintLayout itemConstraint = (ConstraintLayout) rootView;
+      SquareConstraintLayout itemConstraint = (SquareConstraintLayout) rootView;
 
       id = R.id.numb_text;
       TextView numbText = ViewBindings.findChildViewById(rootView, id);
@@ -67,7 +67,7 @@ public final class MyItemLayoutBinding implements ViewBinding {
         break missingId;
       }
 
-      return new MyItemLayoutBinding((ConstraintLayout) rootView, itemConstraint, numbText);
+      return new MyItemLayoutBinding((SquareConstraintLayout) rootView, itemConstraint, numbText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
